@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', san-serif;
+    background-color: black;
+    color: white;
+
+}
+header {
+    width: 100%;
+}
+nav {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+   margin: 0;
+}
+ul{
+    display: flex;
+    gap: 80px;
+    font-size: 60px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: gray;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    padding: 50px 40%;
+    margin: 150px;
+}   
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px 50px;
+}
+.home-content{
+    max-width: 600px;
+}
+.home-content h1{
+    font-size: 48px;
+    margin-bottom: 50px;
+    left: 500px;
+    position: relative;
+}
+.home-content p{
+    font-size: 16px;
+    margin-bottom: -130px;
+    left: 500px;
+    position: relative;
+}
